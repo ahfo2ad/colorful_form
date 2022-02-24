@@ -1,0 +1,42 @@
+body {
+  background-image: url(../images/landing.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+.content {
+  padding: 30px;
+  border-radius: 5px;
+  backdrop-filter: blur(40px);
+  border: 1px solid #ccc;
+}
+.content h1 {
+  text-transform: capitalize;
+  font-size: 35px;
+}
+.content p {
+  font-size: 18px;
+}
+.containing {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+form input,
+form textarea {
+  margin-bottom: 15px;
+  padding: 12px !important;
+}
+form input:not([type="submit"]),
+form textarea {
+  background-color: inherit !important;
+}
+form textarea {
+  min-height: 120px !important;
+  max-height: 300px !important;
+  resize: none;
+}
+form input[type="submit"] {
+  text-transform: capitalize;
+}
